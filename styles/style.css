@@ -22,6 +22,12 @@
 
 .text-margin{
     margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contant-width{
+    width: 1280px;
+    margin: 50px auto;
 }
 /* nav styles */
 nav{
@@ -74,4 +80,105 @@ nav{
     font-size: 56px;
     font-weight: 700;
 
+ }
+
+ /* Pillars section start here */
+.piller-container{
+    height: 324px;
+}
+
+ .pillars-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+
+ .pillars-card{
+    width: 300px;
+    height: 240px;
+    text-align: left;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px 20px;
+    /* box-shadow: 10px 10px 20px ; */
+ }
+
+ .piller-img{
+    width: 50px;
+    height: 50px;
+ }
+
+ /* vision section start here */
+ .vision-card-1{
+    width: 410px;
+    height: 280px;
+    padding: 20px 30px;
+    background-color: #5490F533;
+    border-radius: 10px;
+ }
+ .vision-card-2{
+    width: 410px;
+    height: 280px;
+    padding: 20px 30px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+ }
+ .vision-card-3{
+    width: 410px;
+    height: 280px;
+    padding: 20px 30px;
+    background-color: #F7EBCF;
+    border-radius: 10px;
+ }
+
+ .vision-card-1 h4{
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .vision-card-2 h4{
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .vision-card-3 h4{
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+ .vision-card-1 p{
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .vision-card-2 p{
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .vision-card-3 p{
+    font-size: 16px;
+    font-weight: 400;
+ }
+
+ .vision-btn-1{
+    background-color: #5490F5;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+ }
+ .vision-btn-2{
+    background-color: #09A15C;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+ }
+ .vision-btn-3{
+    background-color: #FFC239;
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+ }
+
+
+ .vision-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
  }
